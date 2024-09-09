@@ -1,8 +1,13 @@
 import mysql.connector
 from dotenv import load_dotenv
 import os
+from pathlib import Path
 
-load_dotenv()#O arquivo que contêm os dados está no arquivo ".env".
+# Defina o caminho completo para o arquivo .env
+caminho_env = Path('C:/Users/victo/Desktop/.env')  # Usando barras normais ou duplas barras invertidas
+
+# Carrega as variáveis do arquivo .env localizado na outra pasta
+load_dotenv(dotenv_path=caminho_env)
 
 def conexao_ao_banco():        
     try:
@@ -16,8 +21,5 @@ def conexao_ao_banco():
     except Exception as erro:
         print(f'\nErro ao conectar ao banco de dados: {erro}')
 
-#Ok - 2024-09-07      
 if __name__ == '__main__':
-    #print(conexao_ao_banco())
-    pass
-    
+    conexao_ao_banco()
