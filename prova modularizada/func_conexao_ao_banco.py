@@ -22,4 +22,4 @@ def conexao_ao_banco():
         print(f'\nErro ao conectar ao banco de dados: {erro}')
 
 if __name__ == '__main__':
-    conexao_ao_banco()
+    print(conexao_ao_banco())

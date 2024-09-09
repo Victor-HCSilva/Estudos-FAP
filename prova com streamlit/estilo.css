@@ -1,0 +1,103 @@
+*{
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0%;
+}
+body{
+    background: black;
+    
+}
+/*botoes e barra lateral*/
+div{
+    background-color: rgb(0,0,50); 
+
+}
+/*cor da confimação*/
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(3) > div > div > div > div > div > div > p{
+
+background-color: green;
+}
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(3) > div > div{
+
+    background-color: green;
+
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(3) > div > div > div > div > div > div{
+
+background-color: green;    
+}
+
+
+/*cor de repetir aperto*/
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(6) > div > div > div > div > div > div{
+    background-color: green;
+}
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(6) > div > div{
+    background-color: green;
+}
+
+
+
+/*cor de erro*/
+
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(9) > div > div > div > div > div > div{
+ background-color: green;
+ color: white;
+}
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(9) > div > div{
+    background-color: green;
+}
+green
+
+#bui153__anchor > div > div{
+    background-color: antiquewhite;
+    color: black;
+}
+
+/*erro de senha  eoutros tipo de erros: */
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(7) > div > div > div > div > div > div{
+    background-color: green;
+    color: white;
+}
+
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(7) > div > div > div > div > div > div > p{
+    background-color: green;
+    color: white;
+}
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(7) > div > div{
+    background-color: green;
+    color: white;
+}
+
+/*erro de trasnferecia */
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(8) > div > div > div > div > div > div{
+    background-color: green;
+    color: white;
+}
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(8) > div > div{
+    background-color: green;
+    color: white;
+}
+/*Saldo no extrato*/
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(17) > div > div{
+    background-color: aliceblue;
+    color: black;
+}
+
+/*Extrato*/
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(10) > div > div{
+    background-color: green;
+    color: white;
+}
+#root > div:nth-child(1) > div.withScreencast > div > div > div{
+    background: rgb(0,0,50);
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5{
+    background-color:  rgb(0,0,50);
+}

@@ -3,7 +3,7 @@ from func_deletar import deletar
 from func_extrato import extrato 
 from func_id import encontrar_id
 from func_transacoes import transacoes
-from func_transferecia import transferencia
+from func_transferencia import transferencia
 from func_saldo import _salario
 from func_deletar import deletar
 from func_movimentacoes import movimentacoes
@@ -16,10 +16,10 @@ import mysql.connector
 import numpy
 
 #print("Versão do Python",platform.python_version)-->> 3.12.4
-#print('Versão da biblioteca mysql.connector:', mysql.connector.__version__)-->> 9.0.0
+print('Versão da biblioteca mysql.connector:', mysql.connector.__version__)#-->> 9.0.0
 #print('Versão da biblioteca numpy:',numpy.__version__)--->> 1.26.1
-print('versção do streamlit', streamlit.__version__)-->>1.32.0'''
-
+print('versão do streamlit', streamlit.__version__)#-->>1.32.0'
+'''
 #Menu
 if __name__=='__main__':
     while True:
