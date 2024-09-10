@@ -14,11 +14,11 @@ def main():
         if 'numero_da_conta' not in st.session_state:
             st.session_state.numero_da_conta = None
         
-        menu = ["Possuo Conta", "Não possuo Conta", "Sair"]
+        menu = ["login", "Criar conta", "Sair"]
         escolha = st.sidebar.selectbox("Menu", menu, index= 1 )
         
         # tem conta
-        if escolha == "Possuo Conta":
+        if escolha == "login":
             if not st.session_state.logado:
                 st.subheader('Login')
                 numero_da_conta = st.number_input("Insira o número da conta", min_value=0, step=1)
@@ -108,7 +108,7 @@ def main():
                         st.session_state.numero_da_conta = None
                     
         # Criar conta
-        elif escolha == "Não possuo Conta":
+        elif escolha == "Criar conta":
             st.subheader("Crie sua conta")
             nome = st.text_input("Nome Completo", placeholder='Insira seu nome')
             saldo_inicial = st.number_input("Depósito Inicial", min_value=0.0, step=0.01, placeholder='R$')
@@ -139,6 +139,7 @@ def main():
             st.session_state.logado = False
             st.session_state.numero_da_conta = None
             st.text("Obrigado por usar o sistema bancário.")
+            os.system('exit()')
     except:
         pass
         st.error('por favor verifique se tudo foi preenchido corretamente', icon="🚨",)

@@ -5,14 +5,40 @@
     border-radius: 6px;
     padding: 0%;
 }
-body{
-    background: black;
-    
+
+/*palavra Menu, 2024-09-10*/
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.st-emotion-cache-1cypcdb.eczjsme11 > div.st-emotion-cache-6qob1r.eczjsme3 > div.st-emotion-cache-16txtl3.eczjsme4 > div > div > div > div > div > div > label > div > p{
+    font-size: 2rem;
+    background-color: rgb(0,50,150);
+    border-radius: 6px;
+    border: 2px solid rgb(0,50,250);
 }
+
+/*Login/conta <<<--- contidos no span que varia*/
+#crie-sua-conta > div > span{
+    font-size:1.52rem;
+    background-color: rgb(0,50,150);
+    border-radius: 6px;
+    border: 2px solid rgb(0,50,250);
+}
+
+/*botoes hover - inconsistentes
+#bui12__anchor > div > div:hover{
+    background-color: red;
+}
+*/
+
 /*botoes e barra lateral*/
 div{
-    background-color: rgb(0,0,50); 
+    background-color: rgb(0,0,40); 
 
+}
+/*emogi*/
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(9) > div > div > div > div > div > span{
+    background-color: green;
+}
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(9) > div > div > div > div > div{
+    background-color: green;
 }
 /*cor da confimação*/
 #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(3) > div > div > div > div > div > div > p{
@@ -51,7 +77,6 @@ background-color: green;
 #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(9) > div > div{
     background-color: green;
 }
-green
 
 #bui153__anchor > div > div{
     background-color: antiquewhite;
@@ -83,12 +108,12 @@ green
     background-color: green;
     color: white;
 }
-/*Saldo no extrato*/
+/*Saldo no extrato - inconsistente
 #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(17) > div > div{
     background-color: aliceblue;
     color: black;
 }
-
+*/
 /*Extrato*/
 #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5 > div > div > div > div:nth-child(10) > div > div{
     background-color: green;
@@ -100,4 +125,16 @@ green
 
 #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi8 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi5{
     background-color:  rgb(0,0,50);
+}
+/*botoes*/
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.st-emotion-cache-1cypcdb.eczjsme11 > div.st-emotion-cache-6qob1r.eczjsme3 > div.st-emotion-cache-16txtl3.eczjsme4 > div > div > div > div > div > div > div > div > div.st-ak.st-al.st-bc.st-bd.st-be.st-as.st-bf.st-bg.st-ar.st-bh.st-bi.st-bj.st-bk > div.st-bl.st-ak.st-bm.st-bn.st-bo.st-ar.st-bp.st-bq.st-br{
+    background-color: rgb(0,50,150);
+}
+ 
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.st-emotion-cache-1cypcdb.eczjsme11 > div.st-emotion-cache-6qob1r.eczjsme3 > div.st-emotion-cache-16txtl3.eczjsme4 > div > div > div > div > div > div > div > div > div.st-ak.st-al.st-bc.st-bd.st-be.st-as.st-bf.st-bg.st-ar.st-bh.st-bi.st-bj.st-bk{
+        background-color: rgb(0,50,150);
+        border: 1px solid whitesmoke ;
+}
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.st-emotion-cache-1cypcdb.eczjsme11 > div.st-emotion-cache-6qob1r.eczjsme3 > div.st-emotion-cache-16txtl3.eczjsme4 > div > div > div > div > div > div > div > div > div.st-ak.st-al.st-bc.st-bd.st-be.st-as.st-bf.st-bg.st-ar.st-bh.st-bi.st-bj.st-bk:hover{
+    border: 2px solid whitesmoke ;
 }
